@@ -1,0 +1,227 @@
+/* шрифты
+Raleway 700
+Oleo Script 400
+Roboto 500
+Roboto 900
+Roboto 700
+Roboto 400*/
+
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-text-color: #757575;
+  --main-logo-color: #2196f3;
+  --second-logo-color: #000000;
+  --main-btn-color: #212121;
+  --second-btn-color: #ffffff;
+  --main-headertext-color: #212121;
+  --second-headertext-color: #757575;
+  --third-headertext-color: #2196f3;
+  --main-footertext-color: #ffffff;
+  --second-footertext-color: rgba(255, 255, 255, 0.6);
+  --third-logo-color: #ffffff;
+  --third-footertext-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/*----------------------------- Header-------------------------- */
+/* Header logo */
+.header {
+  background: #ffffff;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-logo-color);
+}
+.accent {
+  color: var(--main-logo-color);
+}
+/* Header NAV */
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-headertext-color);
+}
+.current {
+  color: var(--main-logo-color);
+}
+
+/* Header contact */
+
+.link.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.link.navigation:hover,
+.link.navigation:focus {
+  color: var(--third-headertext-color);
+}
+.link.contact:hover,
+.link.contact:focus {
+  color: var(--third-headertext-color);
+}
+
+/* -------------------------------main------------------------------------ */
+/* hero */
+.hero {
+  background: #2f303a;
+}
+.hero-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-btn {
+  font-weight: 700;
+  background: #2196f3;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--second-btn-color);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #188ce8;
+}
+
+/* advantages */
+.advantages {
+  background: #e5e5e5;
+}
+.title-advantages {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+}
+.text-advantages {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* what do we do */
+.we-do {
+  background: #e5e5e5;
+}
+.we-do-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+/* our team */
+.our-team {
+  background: #f5f4fa;
+}
+.title-our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+.name-foto {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+.our-team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* ------------------------------footer------------------------------------ */
+.footer {
+  background: #2f303a;
+}
+.logowite {
+  color: var(--third-logo-color);
+}
+.adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-footertext-color);
+}
+.link.footer-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.link.footer-contact:hover,
+.link.footer-contact:focus {
+  color: var(--third-footertext-color);
+}
+
+/* ---------------------------Portfolio---------------------- */
+/* filter */
+.filter {
+  background: #e5e5e5;
+}
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-btn-color);
+  background: #f5f4fa;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background: #2196f3;
+}
+
+/* example */
+.example {
+  background: #e5e5e5;
+}
+.title-example {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+.text-example {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
