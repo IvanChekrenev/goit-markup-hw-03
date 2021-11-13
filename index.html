@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<!--  -->
+<body> 
+    
  <header class="header">
-     
+     <div class="container site-nav">
          <a class="link logo" href=""><span class="accent">Web</span>Studio</a>
          <nav class="header-navigation">
          <ul class="list navigation-list">
@@ -27,49 +29,55 @@
         <ul class="list contact">
             <li class="contact-item"><a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li class="contact-item"><a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>      
-              
+        </ul>
+    </div>            
      
  </header>
  <main>
      <section class="hero">
-         <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+        <div class="container">
+         <div class="hero-text-box"><h1 class="hero-text">Эффективные решения для вашего бизнеса</h1></div>
          <button class="hero-btn" type="button">Заказать услугу</button>
+        </div>
      </section>
      <section class="advantages">
-         <!-- логически заголовок Преимущества-->
+         <div class="container">
+         <h2 class="hidden-heading">Преимущества</h2>
          <ul class="list advantages">
-             <li class="item-advantages">
+             <li  class="item-advantages">
                  <h3 class="title-advantages">Внимание к деталям</h3>
                  <p class="text-advantages">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-              <li>
+              <li class="item-advantages">
                 <h3 class="title-advantages">Пунктуальность</h3>
                 <p class="text-advantages">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
               </li>
-              <li>
+              <li class="item-advantages">
                 <h3 class="title-advantages">Планирование</h3>
                 <p class="text-advantages">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
               </li>
-              <li>
+              <li class="item-advantages">
                 <h3 class="title-advantages">Современные технологии</h3>
                 <p class="text-advantages">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
               </li>      
          </ul>
+        </div>
      </section>
      <section class="we-do">
+         <div class="container">
          <h2 class="we-do-title">Чем мы занимаемся</h2>
-         <ul class="list">
+         <ul class="list we-do">
             <li><img src="./images/img1m.jpg" alt="рабочий стол человека за работой №1" width="370" height="294"></li>
             <li><img src="./images/img2m.jpg" alt="рабочий стол человека за работой №2" width="370" height="294"></li>
             <li><img src="./images/img3m.jpg" alt="рабочий стол человека за работой №3" width="370" height="294"></li>
-
-         </ul>        
+         </ul>  
+        </div>
          
      </section>
      <section class="our-team">
+        <div class="container">
          <h2 class="title-our-team">Наша команда</h2>
-         <ul class="list">
+         <ul class="list our-team">
              <li>
                  <img src="./images/imgf1m.jpg" alt="Игорь Демьяненко Product Designer" width="270" height="260">
                  <h3 class="name-foto">Игорь Демьяненко</h3>
@@ -91,22 +99,26 @@
                 <p class="our-team-position">UI Designer</p>
             </li>
          </ul>
+        </div>
      </section>
 
  </main>
  <footer class="footer">
+     <div class="container footer">
     <a class="link logo" href=""><span class="accent">Web</span><span class="logowite">Studio</span></a>
     <address>
         <p class="adress">
         г. Киев, пр-т Леси Украинки, 26
         </p>
-        <ul class="list">
-            <li><a class="link footer-contact" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="link footer-contact" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="list footer">
+            <li><a class="link footer-contact mail" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="link footer-contact tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
         
     </address>
+    </div>
  </footer>
+ 
 
 </body>
 </html>
