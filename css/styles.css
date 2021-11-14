@@ -304,7 +304,7 @@ button {
   text-align: center;
 }
 /* ------------------------------footer------------------------------------ */
-.footer {
+.footer-all {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -326,6 +326,7 @@ button {
   margin-bottom: 9px;
 }
 .link.footer-contact {
+  display: block;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
