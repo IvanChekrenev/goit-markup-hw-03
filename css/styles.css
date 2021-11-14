@@ -375,7 +375,6 @@ button {
 .list.example {
   display: flex;
   flex-wrap: wrap;
-  background-color: turquoise;
 }
 
 .example-item {
