@@ -60,6 +60,10 @@ button {
 .link {
   text-decoration: none;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /* -------------------header------------------------- */
 /* Header logo */
@@ -148,7 +152,7 @@ button {
 }
 
 /* -------------------------------main------------------------------------ */
-/* hero */
+/* -------------------------------hero */
 .hero {
   background: #2f303a;
   height: 600px;
@@ -197,7 +201,8 @@ button {
   background: #188ce8;
 }
 
-/* advantages */
+/* ------------------------------advantages */
+
 .hidden-heading {
   position: absolute;
   width: 1px;
@@ -214,7 +219,6 @@ button {
 }
 .list.advantages {
   display: flex;
-  padding-top: 94px;
 }
 .item-advantages:not(:last-child) {
   margin-right: 30px;
@@ -241,9 +245,10 @@ button {
   width: 270px;
 }
 
-/* what do we do */
-.we-do {
+/* -------------------------------------------what do we do ------------*/
+.section.we-do {
   background: #e5e5e5;
+  padding-top: 0px;
 }
 .we-do-title {
   font-weight: 700;
@@ -252,16 +257,14 @@ button {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 
-  padding-top: 94px;
   text-align: center;
 }
 .list.we-do {
   padding-top: 50px;
   display: flex;
-  padding-bottom: 94px;
   justify-content: space-between;
 }
-/* our team */
+/* -----------------------------------------------our team ---------------- */
 .our-team {
   background: #f5f4fa;
 }
@@ -273,13 +276,11 @@ button {
   color: var(--second-title-color);
 
   text-align: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .list.our-team {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 
 .name-foto {
@@ -339,14 +340,15 @@ button {
 }
 
 /* ---------------------------Portfolio---------------------- */
-/* filter */
+/* ---------------------------filter -------------------------*/
+
+/* list filter example */
 
 .list.filter {
   display: flex;
   background: #ffffff;
   justify-content: center;
-  padding-top: 100px;
-  padding-bottom: 56px;
+  margin-bottom: 50px;
 }
 .filter-item:not(:last-child) {
   margin-right: 52px;
@@ -369,14 +371,10 @@ button {
 }
 
 /* example */
-.example {
-  background: #ffffff;
-}
 
 .list.example {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 .example-item:not(:nth-last-child(3n + 1)) {
   margin-right: 30px;
