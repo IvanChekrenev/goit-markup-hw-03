@@ -342,7 +342,7 @@ button {
 /* ---------------------------Portfolio---------------------- */
 /* ---------------------------filter -------------------------*/
 
-/* list filter example */
+/* ---------------------------list filter example */
 
 .list.filter {
   display: flex;
@@ -370,21 +370,23 @@ button {
   background: #2196f3;
 }
 
-/* example */
+/* ---------------------------------example */
 
 .list.example {
   display: flex;
   flex-wrap: wrap;
+  background-color: turquoise;
 }
-.example-item:not(:nth-last-child(3n + 1)) {
+
+.example-item {
   margin-right: 30px;
 }
-.example-item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
+
+.example-item:nth-child(3n) {
+  margin-right: 0px;
 }
-.example-item {
-  border-bottom-style: 1px solid #eeeeee;
-}
+
+/* border-bottom-style: 1px solid #eeeeee; */
 
 .title-example {
   font-weight: 700;
