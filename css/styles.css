@@ -6,6 +6,65 @@ Roboto 900
 Roboto 700
 Roboto 400*/
 
+.slider-item-wrap {
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.slider-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-dots {
+}
+.slider-text-wrap {
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 29px;
+
+  background-color: repeating-linear-gradient(
+    top,
+    transparent,
+    transparent 29px,
+    #e1e1e1 0,
+    transparent 30px
+  );
+}
+
+.slider-text {
+  display: block;
+  max-width: 157px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-text::before {
+  content: '';
+  width: 56px;
+  height: 40px;
+}
+
+.slider-text::before {
+  margin-right: 10px;
+  background-image: url(../images/“.png);
+}
+
+.slider-eclipes-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+  margin-top: 30px;
+}
+.slider-eclipes:not(:last-child) {
+  margin-right: 10px;
+}
+
+.slider-user-name {
+  margin-bottom: 30px;
+}
+
 :root {
   --main-title-color: #ffffff;
   --second-title-color: #212121;
